@@ -149,3 +149,35 @@ main {
   background-size: cover;
   background-position: center center;
 }
+footer {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-menu {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(1, 1, 1, 0.2);
+}
+.footer-copy {
+  margin: 0 auto;
+  width: 1024px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+}
+.footer-img {
+  width: 30%;
+}
+.footer-kp {
+  font-size: 14px;
+  color: rgba(1, 1, 1, 0.4);
+  margin-bottom: 5px;
+}
+.footer-en {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: rgba(1, 1, 1, 0.4);
+}
